@@ -1,0 +1,161 @@
+
+
+
+
+header{
+  position: relative;
+}
+
+
+.panda{
+  position: absolute;
+  top: 10px;
+  left: 200px;
+  height: 60px;
+  width: 100px;
+  background-color: #fff;
+  float: left;
+}
+.panda img{
+  height: 60px;
+  width: auto;
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+
+nav{
+  background-color: black;
+  text-align: center;
+  /* En plus */
+  font-size: 1.1em;
+  width: 80%;
+  height: 100px;
+}
+
+nav ul li{
+  display: inline-block;
+  /* border: solid 1px white; */
+  /* padding: 10px 10px 15px 10px; */
+  height: 30px;
+  margin: 10px;
+
+}
+nav ul li a{
+  color: white;
+  text-decoration: none;
+  padding: 30px;
+}
+
+.container {
+  width: 60%;
+  margin: auto;
+
+  background-color: rgb(221, 172, 65);
+}
+
+section{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 15px;
+}
+.car{
+  background-color: #fff;
+  width: 45%;
+  margin: 5px 5px 5px 5px;
+}
+
+.car img{
+  width: 100%;
+}
+
+
+section .car{
+  position: relative;
+}
+
+
+/* *********************************************************************FOOTER****************************** */
+
+.legal{
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.legal > div{
+  border: solid 2px red;
+  background-color: yellow;
+  height: 100px;
+  width: 200px;
+}
+
+
+
+footer{
+  background-color: orange;
+}
+
+
+
+.reseaux{
+  color: white;
+  background-color: white;
+
+  display: flex;
+  justify-content: space-evenly;
+  /* text-align: center; */
+}
+.reseaux a{
+  padding: 20px;
+}
+
+
+.map{
+  border: solid 2px green;
+  width: 200px;
+  height: 100px;
+  float: right;
+}
+
+
+
+/* git remote add origin +lien Moussa */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* body{
+    background-color: rgb(230, 238, 192);
+}
+
+.cars{
+  height: 800px;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: yellow;
+  height: 800px;
+}
+
+.cars img{
+  height: 100px;
+  width: auto;
+} */
